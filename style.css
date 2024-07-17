@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+body {
+    background-color:rgb(25, 25, 25);
+    color: #fff;
+}
+
+#container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: fit-content;
+    justify-content: center;
+    align-content: center;
+
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#buttons-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+
+}
+
+.result-box {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#result {
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.buttons .reset-score {
+    background: transparent;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.buttons {
+    font-size: 16px;
+}
+
+.buttons .scissors, .buttons .paper, .buttons .rock {
+    background: transparent;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.buttons .scissors, .buttons .paper, .buttons .rock, .buttons .reset-score {
+    cursor: pointer;
+}
+
+.buttons .scissors:hover, .buttons .paper:hover, .buttons .rock:hover, .buttons .reset-score:hover {
+    background: grey;
+}
+
+#reset-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
